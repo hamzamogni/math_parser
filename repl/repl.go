@@ -3,12 +3,11 @@ package repl
 import (
 	"bufio"
 	"fmt"
+	"github.com/hamzamogni/math_parser/evaluator"
+	"github.com/hamzamogni/math_parser/lexer"
+	"github.com/hamzamogni/math_parser/parser"
 	"io"
-	"parser_lexer/evaluator"
-	"parser_lexer/lexer"
-	"parser_lexer/parser"
 )
-
 
 func Start(in io.Reader, out io.Writer) {
 	scanner := bufio.NewScanner(in)

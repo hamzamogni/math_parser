@@ -3,11 +3,11 @@ package main
 import (
 	"bufio"
 	"fmt"
+	"github.com/hamzamogni/math_parser/evaluator"
+	"github.com/hamzamogni/math_parser/lexer"
+	"github.com/hamzamogni/math_parser/parser"
 	"io"
 	"os"
-	"parser_lexer/evaluator"
-	"parser_lexer/lexer"
-	"parser_lexer/parser"
 )
 
 func main() {
@@ -16,7 +16,7 @@ func main() {
 		fmt.Printf("Type your comnmands\n")
 		StartREPL(os.Stdin, os.Stdout)
 	} else if len(os.Args) == 2 {
-        out := os.Stdout
+		out := os.Stdout
 		l := lexer.New(os.Args[1])
 		p := parser.New(l)
 

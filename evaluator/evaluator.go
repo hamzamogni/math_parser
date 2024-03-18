@@ -2,8 +2,8 @@ package evaluator
 
 import (
 	"fmt"
-	"parser_lexer/ast"
-	"parser_lexer/object"
+	"github.com/hamzamogni/math_parser/ast"
+	"github.com/hamzamogni/math_parser/object"
 )
 
 func Eval(node ast.Node) object.Object {

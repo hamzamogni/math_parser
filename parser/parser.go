@@ -2,9 +2,9 @@ package parser
 
 import (
 	"fmt"
-	"parser_lexer/ast"
-	"parser_lexer/lexer"
-	"parser_lexer/token"
+	"github.com/hamzamogni/math_parser/ast"
+	"github.com/hamzamogni/math_parser/lexer"
+	"github.com/hamzamogni/math_parser/token"
 	"strconv"
 )
 

@@ -1,8 +1,8 @@
 package evaluator
 
 import (
+	"github.com/hamzamogni/math_parser/object"
 	"math"
-	"parser_lexer/object"
 )
 
 var builtins = map[string]*object.Builtin{

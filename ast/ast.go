@@ -2,7 +2,7 @@ package ast
 
 import (
 	"bytes"
-	"parser_lexer/token"
+	"github.com/hamzamogni/math_parser/token"
 	"strings"
 )
 
